@@ -1,0 +1,78 @@
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #CCCCCC;
+}
+
+.navigationbar ul {
+    background-color: #444;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    text-align: center;
+}
+
+.navigationbar li {
+    font-size: 24px;
+    line-height: 40px;
+    height: 40px;
+    padding: 20px;
+    display: inline-block;
+}
+
+.navigationbar a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.navigationbar li a.active {
+  background-color: green;
+  color: white;
+}
+
+.img {
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+}
+
+.paragraphs, #education, .skills, #skillstitle, .certificates, .languagesinfo, .projects {
+   font-family: Graphik Semibold Web, Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+   font-style: oblique;
+   font-weight: 600;
+   font-size: 20px;
+   line-height: 1.46;
+   text-align: center;
+}
+
+.coursesinformation, .skills, .languages {
+  color: red;
+}
+
+.aboutinfo {
+   text-align: center;
+   font-family: Graphik Semibold Web, Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+   font-style: oblique;
+   font-weight: 600;
+   line-height: 1.46;
+}
+
+.social-icons .social-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 3.5rem;
+  width: 3.5rem;
+  background-color: #495057;
+  color: #fff;
+  border-radius: 100%;
+  font-size: 1.5rem;
+  margin-right: 1.5rem;
+  text-align: center;
+}
+
+.social-icons{
+  text-align: center;
+}

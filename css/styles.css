@@ -1,0 +1,118 @@
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #CCCCCC;
+}
+
+p {
+  margin: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+ul li {
+  float: left;
+  border-right: 1px solid #bbbbbb;
+}
+
+ul li:last-child {
+  border-right: none;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover:not(.active) {
+  background-color: #111111;
+}
+
+ul li a.active {
+  background-color: #04AA6D;
+}
+
+.img {
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+}
+
+.paragraphs {
+  font-family: Graphik Semibold Web, Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-style: oblique;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.46;
+  text-align: center;
+}
+
+.aboutinfo {
+  text-align: center;
+  font-family: Graphik Semibold Web, Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-style: oblique;
+  font-weight: 600;
+  line-height: 1.46;
+}
+
+.social-icons .social-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 3.5rem;
+  width: 3.5rem;
+  background-color: #495057;
+  color: #fff;
+  border-radius: 100%;
+  font-size: 1.5rem;
+  margin-right: 1.5rem;
+  text-align: center;
+}
+
+.social-icons {
+  text-align: center;
+}
+
+.educationinfo,
+.languagesinfo,
+.projects {
+  display: flex;
+  flex-direction: column;
+  font-family: Graphik Semibold Web, Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-style: oblique;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.46;
+  text-align: center;
+  color: red;
+}
+
+.certificates {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.projects p,
+.skills p {
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+}
+
+.skills {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: #0000FF;
+}
